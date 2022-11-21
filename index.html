@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/styles.css">
+  		<script src="lib/p5.min.js"></script>
+  		<script src="lib/p5.dom.min.js"></script>
+		<script src="lib/nn.js"></script>
+		<script src="lib/matrix.js"></script>
+		<script src="mnist.js"></script>
+		<script src="sketch.js"></script>
+		<title id="title"></title>
+	</head>
+	<body id="body">
+    	<div>
+        	<span id="heading"></span>
+			<br/>
+       		<br/>
+		</div>
+		<div id="container"></div>
+		<div>
+			<p id="info">
+				Please be patient as the MNIST test set autoloads.
+				<br/>
+				<br/>			
+				MNIST test set correct: <span id="percent"></span>
+				<br/>
+				<br/>
+				Neural Network guess: <span id="user_guess"></span>
+			</p>
+		</div>	
+	</body>
+</html>

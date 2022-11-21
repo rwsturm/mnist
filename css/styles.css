@@ -1,0 +1,18 @@
+body {
+    color: gray;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#heading {
+    color: gray;
+    float: left;
+}
+
+/* .button-play {
+    color: green;
+}
+
+.button-pause {
+    color: blue;
+} */
